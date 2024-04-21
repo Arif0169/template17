@@ -1,0 +1,274 @@
+git add*{
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-width{
+    max-width: 1200px;
+    margin: auto;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.header-section{
+    background: #000;
+}
+.left{
+    width: 100px;
+}
+.left img{
+    max-width: 100%;
+}
+.right{
+    margin-top: 10px;
+}
+.right ul{
+    text-align: center;
+}
+.right ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.right ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 40px;
+}
+.bannersection{
+    background: url(https://media.istockphoto.com/id/1419410282/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays.webp?b=1&s=612x612&w=0&k=20&c=C318sxgBBIO66E7vi_0Eu3lXHm9uRDauKvRgeyxY2O4=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+.text h1{
+    color: #fff;
+    font-size: 50px;
+}
+.text P{
+    color: #fff;
+    font-size: 15px;
+}
+.text a{
+    display: inline-block;
+    text-decoration: none;
+    background: red;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    color: #000;
+    margin-top: 20px;
+}
+/* About Style Start */
+.about{
+    background: #86a371;
+    text-align: center;
+    padding: 60px 0;
+    font-weight: bold;
+    color: #fff;
+    font-size: 30px;
+}
+.about h1{
+    display: inline-block;
+    border-bottom: 1px solid #fff;
+    text-transform: uppercase;
+}
+.about .left-content{
+    width: 70%;
+}
+.about .left-content p{
+    text-align: justify;
+    margin-top: 10px;
+    line-height: 1.5rem;
+    font-size: 18px;
+    color: #fff;
+}
+.about .right-img{
+    width: 25%;
+    margin-left: auto;
+}
+.about .right-img img{
+    width: 250px;
+   
+}
+/* About Style End */
+/* Service start  */
+.service{
+    background: #606a64;
+    padding: 50px 0;
+}
+.service-text{
+    text-align: center;
+    color: #fff;
+}
+.service-text h1{
+    display: inline-block;
+    border-bottom: 1px solid #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.service-text h3{
+    margin-bottom: 20px;
+}
+.service-text p{
+    margin-bottom: 20px;
+    width: 700px;
+    margin: auto;
+}
+.service-item{}
+.item{
+    width: 23%;
+    margin: auto;
+    margin-left: 2%;
+    background-color: #fff;
+    float: left;
+    border-radius: 25px;
+    padding: 30px 40px;
+    margin-top: 50px;
+}
+.item .icon{
+    width: 25%;
+}
+.icon i {
+    font-size: 50px;
+    color: #03bc9d;
+}
+.item .item-text{
+    width: 74%;
+}
+.item-text h5{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.item-text p{}
+/* Service end  */
+/* Container Section Start */
+.container-section{
+    background: #87a471;
+    padding: 50px 0;
+}
+.section-text{
+    text-align: center;
+    color: #fff;
+}
+.section-text h1{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.section-text p{
+    width: 700px;
+    margin: auto;
+}
+.img-with-subtitle{
+    margin: 50px 0;
+}
+.subtitle-img{
+    width: 45%;
+    display: inline-block;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-right: 4%;
+}
+.subtitle-img:last-child{
+    margin-right: none;
+}
+.subtitle-img img{
+    max-width: 100%;
+    margin-bottom: 10px;
+    min-height: 311px;
+}
+.subtitle-text{
+    margin: 20px 0;
+    font-weight: bold;
+}
+.subtitle-text h4{
+    color: #506a85;
+}
+.subtitle-text p{
+    margin: 10px 0;
+    color: #fff;
+}
+.img-without-subtitle{
+    max-width: ;
+}
+.img-without-subtitle img{
+    display: inline-block;
+    width: 22%;
+    height: 200px;
+    margin-right: 2%;
+}
+.img-without-subtitle img:last-child{
+    margin-right: none;
+}
+/* Container Section End */
+/* Team member start */
+.my-teamember{
+    background: #5b9776;
+    padding: 50px 0;
+}
+.member{
+    width: 30%;
+    margin-right: 2%;
+    display: inline-block;
+}
+.member img{
+    max-width: 300px;
+}
+.member-icon{
+    text-align: center;
+    margin-top: 20px;
+}
+.member-icon i{
+    font-size: 30px;
+    color: #fff;
+    margin-right: 20px;
+}
+/* Team member end */
+
+/* top-footer start */
+.top-footer{
+    background: #606a64;
+    padding: 80px 0;
+}
+.btn{
+    width: 200px;
+    background-color: #00bc9c;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+/* top-footer end */
+/* footer start */
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0; 
+    text-align: center;
+}
+/* footer end */
